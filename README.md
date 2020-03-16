@@ -1,2 +1,0 @@
-# netlify-blog
-netlify blog
