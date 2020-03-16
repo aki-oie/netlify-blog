@@ -1,6 +1,23 @@
 {
+  "name": "vue-press-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "vuepress": "^1.0.3"
+  },
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src --dest dist"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.5.0",
+    "@sentry/integrations": "^5.5.0",
+    "esm": "^3.2.25",
+    "node-pre-gyp": "^0.13.0",
+    "semver": "^6.3.0",
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "vuepress-theme-meteorlxy": "^1.1.0"
   }
 }

@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/yamakawaak/.nodebrew/node/v12.16.1/bin/node /Users/yamakawaak/.nodebrew/current/bin/yarn dev
+
+PATH: 
+  /Users/yamakawaak/.zplug/repos/zplug/zplug/bin:/bin:/Users/yamakawaak/.pyenv/shims:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/usr/local/opt/go/libexec/bin:/Users/yamakawaak/.nodebrew/current/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yamakawaak/Documents/aki-oie/netlify-blog/package.json: Unexpected string in JSON at position 192
+      at JSON.parse (<anonymous>)
+      at /Users/yamakawaak/.nodebrew/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/yamakawaak/.nodebrew/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/yamakawaak/.nodebrew/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vue-press-blog",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "vuepress dev src",
+      "build": "vuepress build src --dest dist"
+    }
+    "dependencies": {
+      "vuepress-theme-meteorlxy": "^1.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
