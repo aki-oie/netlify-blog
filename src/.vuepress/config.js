@@ -140,7 +140,7 @@ module.exports = {
       { text: 'Posts', link: '/posts/', exact: false },
       { text: 'Categories', link: '/posts/categories/', exact: false },
       { text: 'Tags', link: '/posts/tags/', exact: false },
-      { text: 'Github', link: 'https://github.com/aki-oie/netlify-blog' },
+      //{ text: 'Github', link: 'https://github.com/aki-oie/netlify-blog' },
       //{ text: 'Qiita', link: 'https://qiita.com/tomopict' },
       { text: 'About', link: '/about/', exact: false },
     ],
