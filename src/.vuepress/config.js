@@ -11,7 +11,7 @@ module.exports = {
     ['meta', { name: 'og:title', content: 'aki_oieのblog' }],
     [
       'meta',
-      { name: 'og:description', content: 'blogです' }
+      { name: 'og:description', content: 'なんらかのblogです' }
     ],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:image', content: 'image/jpg' }],
@@ -23,7 +23,7 @@ module.exports = {
     '/': {
       lang: 'ja-JP',
       title: 'aki_oieのblog',
-      description: 'aki_oie Blog'
+      description: 'aki_oie blog'
     },
   },
 
@@ -62,8 +62,8 @@ module.exports = {
       sns: {
         // Github account and link
         github: {
-          account: 'meteorlxy',
-          link: 'https://github.com/meteorlxy',
+          account: 'aki-oie',
+          link: 'https://github.com/aki-oie',
         },
 
         // Facebook account and link
@@ -104,7 +104,7 @@ module.exports = {
       },
 
       // show title in the header or not
-//      showTitle: true,
+      showTitle: true,
     },
 
     // Footer Config (Optional)
@@ -140,7 +140,7 @@ module.exports = {
       { text: 'Posts', link: '/posts/', exact: false },
       { text: 'Categories', link: '/posts/categories/', exact: false },
       { text: 'Tags', link: '/posts/tags/', exact: false },
-      { text: 'Github', link: 'https://github.com/meteorlxy/vuepress-theme-meteorlxy' },
+      { text: 'Github', link: 'https://github.com/aki-oie/netlify-blog' },
       //{ text: 'Qiita', link: 'https://qiita.com/tomopict' },
       { text: 'About', link: '/about/', exact: false },
     ],
