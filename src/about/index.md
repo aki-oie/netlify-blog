@@ -11,17 +11,8 @@ meta:
 
 ### Profile
 - 名前 : aki oie
-- 職業 : エンジニア（nonプログラマー）
 - Twitter : [aki_oie](https://twitter.com/aki_oie)
-
-
-### 言語
-|名称|備考|
-|:---|:--:|
-|C++|大学院生時代にずっと使っていた。主に数値計算と並列計算。|
-|Python|友人とKaggleで勉強中。|
-|Web系|無知。HTMLとかも雰囲気でやっている。|
-
+- 何らかの作文をします。
 
 ### 趣味
 
