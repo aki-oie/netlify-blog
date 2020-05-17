@@ -147,8 +147,8 @@ module.exports = {
 
     // Comments config. See the [Posts Comments] section below.
     comments: {
-      owner: 'meteorlxy',
-      repo: 'vuepress-theme-meteorlxy',
+      owner: 'aki-oie',
+      repo: 'netlify-blog',
       clientId: 'MY_CLIENT_ID',
       clientSecret: 'MY_CLIENT_SECRET',
     },
